@@ -1,8 +1,114 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    text-align: center;
-    color: #000;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
 
+    background-image:
+        linear-gradient(
+            rgba(4, 9, 30, 0.55),
+            rgba(4, 9, 30, 0.55)
+        ),
+        url("dagat.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+}
+
+/* Main website area */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px 20px 60px;
+}
+
+/* Navigation */
+nav {
+    margin-bottom: 20px;
+}
+
+nav img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Logo */
+.logo {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+/* Main title */
+h1 {
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+.header > p {
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Personal section */
+section section {
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+section section p {
+    font-size: 20px;
+}
+
+.charl-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Places */
+article {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(5px);
+}
+
+article h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.place-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 15px;
+}
